@@ -15,6 +15,14 @@
       },
       "versions": [
         {
+          "version": "0.1.1",
+          "buildVersion": "0.1.1",
+          "date": "2026-11-19",
+          "size": 3647082,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.1.1/home-v0.1.1.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.1.0",
           "buildVersion": "0.1.0",
           "date": "2026-11-19",
