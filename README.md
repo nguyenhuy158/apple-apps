@@ -10,8 +10,8 @@ https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/source.json
 
 ## Publish a new version
 
-1. Bump the app version in its repo (`tauri.conf.json`), then build unsigned: `pnpm tauri ios build --no-sign --target aarch64 --ci`.
-2. `./publish.py path/to/App.ipa` creates the GitHub release `<app>-v<version>` and adds it to `source.json`.
+1. Bump the app version (semver) in its repo, then build unsigned: `pnpm tauri ios build --no-sign --target aarch64 --ci`.
+2. `./publish.py path/to/App.ipa --notes "- what changed"` creates the GitHub release `<app>-v<version>` with those notes and adds the version to `source.json`; SideStore shows the notes under What's New and Version History.
 3. Commit `source.json` through a PR.
 
 The IPAs hold no tokens or data; each app signs in on the device.

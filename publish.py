@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import datetime
 import json
 import pathlib
@@ -21,7 +22,7 @@ def app_info(ipa: pathlib.Path) -> dict:
         return plistlib.loads(archive.read(plist))
 
 
-def publish(ipa: pathlib.Path) -> None:
+def publish(ipa: pathlib.Path, notes: str) -> None:
     info = app_info(ipa)
     bundle_id = info["CFBundleIdentifier"]
     version = info["CFBundleShortVersionString"]
@@ -39,7 +40,7 @@ def publish(ipa: pathlib.Path) -> None:
     subprocess.run(
         ["gh", "release", "create", tag, str(staged), "--repo", REPO,
          "--title", f"{info.get('CFBundleDisplayName', info['CFBundleName'])} {version}",
-         "--notes", f"Unsigned build of {bundle_id} {version} ({build})."],
+         "--notes", notes],
         check=True,
     )
     staged.unlink()
@@ -48,6 +49,7 @@ def publish(ipa: pathlib.Path) -> None:
         "version": version,
         "buildVersion": build,
         "date": datetime.date.today().isoformat(),
+        "localizedDescription": notes,
         "size": ipa.stat().st_size,
         "downloadURL": f"https://github.com/{REPO}/releases/download/{tag}/{asset}",
         "minOSVersion": MIN_OS,
@@ -57,7 +59,10 @@ def publish(ipa: pathlib.Path) -> None:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        sys.exit("usage: publish.py <unsigned.ipa>...")
-    for path in sys.argv[1:]:
-        publish(pathlib.Path(path))
+    parser = argparse.ArgumentParser(description="Publish an unsigned IPA to the SideStore source")
+    parser.add_argument("ipa", type=pathlib.Path)
+    parser.add_argument("--notes", required=True, help="release notes shown under What's New")
+    args = parser.parse_args()
+    if not args.notes.strip():
+        sys.exit("--notes must not be empty")
+    publish(args.ipa, args.notes.strip())
