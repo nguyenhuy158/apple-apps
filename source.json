@@ -7,7 +7,7 @@
       "name": "Home",
       "bundleIdentifier": "com.nguyenhuy158.home",
       "developerName": "nguyenhuy158",
-      "localizedDescription": "Personal tools in one app. First tool: free badminton courts.",
+      "localizedDescription": "Personal tools in one app: Cầu lông, Chia kèo, Nhật ký, Monitor and Koma.",
       "iconURL": "https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/icons/home.png",
       "appPermissions": {
         "entitlements": [],
@@ -18,6 +18,7 @@
           "version": "0.3.0",
           "buildVersion": "0.3.0",
           "date": "2026-11-19",
+          "localizedDescription": "- New Nhật ký tool: browse notes by month and day, write notes with mood, tags and photos, album, year summary, trash.\n- New Monitor tool: Odoo cron monitor with late crons, instance editing and alert delay.\n- New Koma tool: frame-by-frame video review for badminton swings.",
           "size": 3683182,
           "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.3.0/home-v0.3.0.ipa",
           "minOSVersion": "15.0"
@@ -26,6 +27,7 @@
           "version": "0.2.0",
           "buildVersion": "0.2.0",
           "date": "2026-11-19",
+          "localizedDescription": "- New Chia kèo tool: games, who pays whom, add an expense with receipt scan.\n- One Google sign-in in Cài đặt for every tool.",
           "size": 3648079,
           "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.2.0/home-v0.2.0.ipa",
           "minOSVersion": "15.0"
@@ -34,6 +36,7 @@
           "version": "0.1.1",
           "buildVersion": "0.1.1",
           "date": "2026-11-19",
+          "localizedDescription": "- App icon now shows on iPhone.\n- Links open in the browser.",
           "size": 3647082,
           "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.1.1/home-v0.1.1.ipa",
           "minOSVersion": "15.0"
@@ -42,6 +45,7 @@
           "version": "0.1.0",
           "buildVersion": "0.1.0",
           "date": "2026-11-19",
+          "localizedDescription": "- First release: Cầu lông tool shows free badminton courts and notifies new free slots.\n- Sign in with Google or a QR code.",
           "size": 3647069,
           "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.1.0/home-v0.1.0.ipa",
           "minOSVersion": "15.0"
@@ -63,6 +67,7 @@
           "version": "0.2.0",
           "buildVersion": "0.2.0",
           "date": "2026-11-19",
+          "localizedDescription": "- First release: read synced Zalo chats.",
           "size": 2723758,
           "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/zalo-viewer-v0.2.0/zalo-viewer-v0.2.0.ipa",
           "minOSVersion": "15.0"
