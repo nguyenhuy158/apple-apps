@@ -15,6 +15,15 @@
       },
       "versions": [
         {
+          "version": "0.4.0",
+          "buildVersion": "0.4.0",
+          "date": "2026-11-19",
+          "localizedDescription": "- Chia kèo: tạo cuộc chơi, thêm người, khoản chi, ghi nhận trả nợ ngay trong app\n- Chia kèo: Ảnh tổng kết có xem trước, chọn nền, bật/tắt QR và avatar, Copy ảnh\n- Chia kèo: lịch sử có hoàn tác, ảnh, link chia sẻ, danh bạ, kho cầu, thống kê",
+          "size": 3725914,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.4.0/home-v0.4.0.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.3.1",
           "buildVersion": "0.3.1",
           "date": "2026-11-19",
