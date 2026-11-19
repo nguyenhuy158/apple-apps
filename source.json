@@ -1,0 +1,50 @@
+{
+  "name": "huyab apps",
+  "identifier": "com.nguyenhuy158.ios-apps",
+  "sourceURL": "https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/source.json",
+  "apps": [
+    {
+      "name": "Home",
+      "bundleIdentifier": "com.nguyenhuy158.home",
+      "developerName": "nguyenhuy158",
+      "localizedDescription": "Personal tools in one app. First tool: free badminton courts.",
+      "iconURL": "https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/icons/home.png",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "0.1.0",
+          "date": "2026-11-19",
+          "size": 3647069,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.1.0/home-v0.1.0.ipa",
+          "minOSVersion": "15.0"
+        }
+      ]
+    },
+    {
+      "name": "Zalo Viewer",
+      "bundleIdentifier": "com.nguyenhuy158.zalo-viewer",
+      "developerName": "nguyenhuy158",
+      "localizedDescription": "Read exported Zalo messages.",
+      "iconURL": "https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/icons/zalo-viewer.png",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "buildVersion": "0.2.0",
+          "date": "2026-11-19",
+          "size": 2723758,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/zalo-viewer-v0.2.0/zalo-viewer-v0.2.0.ipa",
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
