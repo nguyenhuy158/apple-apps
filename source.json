@@ -15,6 +15,15 @@
       },
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "0.3.1",
+          "date": "2026-11-19",
+          "localizedDescription": "- Patch release to test SideStore updates. No user-facing changes.",
+          "size": 3683185,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.3.1/home-v0.3.1.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "0.3.0",
           "date": "2026-11-19",
@@ -56,13 +65,22 @@
       "name": "Zalo Viewer",
       "bundleIdentifier": "com.nguyenhuy158.zalo-viewer",
       "developerName": "nguyenhuy158",
-      "localizedDescription": "Read exported Zalo messages.",
+      "localizedDescription": "Read your synced Zalo chats and photos on iPhone, also offline.",
       "iconURL": "https://raw.githubusercontent.com/nguyenhuy158/ios-apps/main/icons/zalo-viewer.png",
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
       },
       "versions": [
+        {
+          "version": "0.3.0",
+          "buildVersion": "0.3.0",
+          "date": "2026-11-19",
+          "localizedDescription": "- Reads chats from the cloud: chat list and messages, photos, works offline with the last cached data.\n- Shows the last sync time.\n- Back button on the cloud setup screen.\n- Fix: app works when opened from the Dock; sync no longer re-sends old messages.",
+          "size": 2723716,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/zalo-viewer-v0.3.0/zalo-viewer-v0.3.0.ipa",
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.2.0",
           "buildVersion": "0.2.0",
