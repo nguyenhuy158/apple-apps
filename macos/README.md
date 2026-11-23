@@ -1,9 +1,15 @@
 # macOS updater manifests
 
-One `latest-<app>.json` per app, consumed by [`tauri-plugin-updater`](https://v2.tauri.app/plugin/updater/).
-Releases (the signed `.app.tar.gz` bundles) live in this repo's own
+`apps.json` lists known app ids. One `latest-<app>.json` per app, consumed
+by [`tauri-plugin-updater`](https://v2.tauri.app/plugin/updater/). Releases
+(the signed `.app.tar.gz` bundles) live in this repo's own
 [Releases](https://github.com/nguyenhuy158/apple-apps/releases), same as the
 iOS `.ipa`s — `apple-apps` is the shared host for both platforms.
+
+Anything reading this index (e.g. a central app list) should fetch
+`apps.json` + each `latest-<app>.json` from `raw.githubusercontent.com`, not
+the `api.github.com` contents endpoint — the API is rate-limited to 60
+req/hour unauthenticated, raw content isn't.
 
 ## Opt an app in (one-time)
 

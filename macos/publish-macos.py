@@ -93,6 +93,14 @@ def publish(
     print(f"published {app} {version} ({target}) -> {url}")
     print(f"updated {manifest_path}; commit it through a PR")
 
+    apps_index_path = MACOS_DIR / "apps.json"
+    apps_index = json.loads(apps_index_path.read_text())
+    if app not in apps_index:
+        apps_index.append(app)
+        apps_index.sort()
+        apps_index_path.write_text(json.dumps(apps_index, indent=2) + "\n")
+        print(f"added {app} to {apps_index_path}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
