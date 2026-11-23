@@ -1,0 +1,11 @@
+{
+  "version": "0.4.0",
+  "notes": "- added Apps tool, self-update",
+  "pub_date": "2026-11-23T19:39:42Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY2JKRCsrZ1FwSEtaWkZvVjkvcDNNN1VWWWxUTUdQZGFQRHh5L0ZpaUhLUU00cHpmNWFEc1AzZjE4WkplWEQ2dkUwRUZSSnh2MDdEdWNsSUFkUDlSYUk0QTA5UHFndmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDU3NTI4CWZpbGU6SG9tZS5hcHAudGFyLmd6CXZlcnNpb246MC40LjAKQVhhS2tLV2t1T0ZVeWZDejBPbytwMzgyV0VacmFTbVkvdm9UbGkxc1haZmU1ZERBeHVEbzBPQVl2NTdyL0daVnRTTE95bmIzMk9pNWJjLzVkeExzQVE9PQo=",
+      "url": "https://github.com/nguyenhuy158/apple-apps/releases/download/home-macos-v0.4.0/home-darwin-aarch64-v0.4.0.app.tar.gz"
+    }
+  }
+}
