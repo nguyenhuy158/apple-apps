@@ -1,0 +1,11 @@
+{
+  "version": "0.3.0",
+  "notes": "- self-update via apple-apps",
+  "pub_date": "2026-11-24T00:55:36Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY2JKRCsrZ1FwSEMwS3FMbXNBeUFQcUs2cTN5eUl1K2szTnlZVlp2RzJPT1NQWko5M29wYXdDV2dyZVM5bjZ2VnB2Sk1ZaFBWSGNuQlhRd3ZDSit4ZmV5NkZOU1BRdXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDgxNjc4CWZpbGU6WmFsbyBWaWV3ZXIuYXBwLnRhci5negl2ZXJzaW9uOjAuMy4wCkZNcnJoZGpiMlhnMWdkUXlzSmdBUjEwa25kdVF3OEtXWWNVTkI1T3ArVTFXY08wMldMRDFONmdpaHhRVWgxeGhUZHVQQWt4TUhhb0crSGxSNHdTckRBPT0K",
+      "url": "https://github.com/nguyenhuy158/apple-apps/releases/download/zalo-viewer-macos-v0.3.0/zalo-viewer-darwin-aarch64-v0.3.0.app.tar.gz"
+    }
+  }
+}
