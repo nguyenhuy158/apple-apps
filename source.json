@@ -15,6 +15,15 @@
       },
       "versions": [
         {
+          "version": "0.5.0",
+          "buildVersion": "0.5.0",
+          "date": "2026-11-24",
+          "localizedDescription": "- Chia kèo: kho cầu chia theo từng ống, mỗi ống có giá cả ống và giá từng quả\n- Chia kèo: khoản chi Cầu chọn ống và số quả, tự tính tiền và trừ kho",
+          "size": 3737143,
+          "downloadURL": "https://github.com/nguyenhuy158/ios-apps/releases/download/home-v0.5.0/home-v0.5.0.ipa",
+          "minOSVersion": "15.0"
+        },
+        {
           "version": "0.4.0",
           "buildVersion": "0.4.0",
           "date": "2026-11-19",
